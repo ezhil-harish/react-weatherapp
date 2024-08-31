@@ -1,0 +1,63 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: #282c34;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.card{
+    width: 380px;
+    height: 450px;
+    padding: 12px 18px;
+    border-radius: 10px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.inputbox{
+    display: flex;
+    gap: 10px;
+}
+.inputbox input{
+    padding: 12px 20px;
+    width: 220px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    outline: none;
+}
+.inputbox button{
+    padding: 12px 15px;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.imgbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+.imgbox img{
+    height: 100px;
+    width: 150px;
+}
+.imgbox span{
+    font-size: 55px;
+    font-weight: 700;
+}
+.humidity{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.humidity span{
+    font-size: 18px;
+    font-weight: 600;
+}
